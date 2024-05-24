@@ -74,7 +74,7 @@ h3, h4 {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-position: 10px;
-    background-size: 27px;
+    background-size: 1.5rem;
 	padding-left: 45px;
 	padding-right: 20px;
 }
@@ -84,7 +84,7 @@ h3, h4 {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-position: 10px;
-    background-size: 25px;
+    background-size: 1.5rem;
 	padding-left: 45px;
 	padding-right: 20px;
 }
@@ -107,48 +107,48 @@ h3, h4 {
 .tarjeta .servidor {
 	background-image: url('../img/icons/servidor.png');
 	background-repeat: no-repeat;
-	background-position-y: 12px;
-    background-size: 25px;
+	background-position-y: 11px;
+    background-size: 1.5rem;
     padding-left: 35px;
 }
 
 .tarjeta .rol {
     background-image: url('../img/icons/rol.png');
     background-repeat: no-repeat;
-	background-position-y: 12px;
-    background-size: 25px;
+	background-position-y: 11px;
+    background-size: 1.5rem;
     padding-left: 35px;
 }
 
 .tarjeta .economia {
 	background-image: url('../img/icons/economia.png');
 	background-repeat: no-repeat;
-	background-position-y: 12px;
-    background-size: 25px;
+	background-position-y: 11px;
+    background-size: 1.5rem;
     padding-left: 35px;
 }
 
 .tarjeta .mecanicas {
 	background-image: url('../img/icons/mecanicas.png');
 	background-repeat: no-repeat;
-	background-position-y: 12px;
-    background-size: 25px;
+	background-position-y: 11px;
+    background-size: 1.5rem;
     padding-left: 35px;
 }
 
 .tarjeta .trabajos {
 	background-image: url('../img/icons/trabajos.png');
 	background-repeat: no-repeat;
-	background-position-y: 12px;
-    background-size: 25px;
+	background-position-y: 11px;
+    background-size: 1.5rem;
     padding-left: 35px;
 }
 
 .tarjeta .facciones {
 	background-image: url('../img/icons/facciones.png');
 	background-repeat: no-repeat;
-	background-position-y: 12px;
-    background-size: 25px;
+	background-position-y: 11px;
+    background-size: 1.5rem;
     padding-left: 35px;
 }
 

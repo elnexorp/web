@@ -13,8 +13,10 @@ body {
 	width: 100%;
 	height: 100%;
     margin: 0;
-    font-family: 'Akrobat', sans-serif;
-	font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  	font-weight: 100;
+  	font-style: normal;
+	font-size: 14px;
 	color: #FFFFFF;
 	background: linear-gradient(to top, #b64514, #d16d24, #ea9735, #ffb547, #ffcd5c);
 	background-attachment: fixed;
@@ -22,13 +24,22 @@ body {
 
 h1 {
 	font-size: 2.5em;
-	font-family: 'Akrobat Black', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
-	font-size: 2.0em;
-	font-family: 'Akrobat Black', sans-serif;
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h3, h4 {
+	font-size: 1.5em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -39,16 +50,17 @@ h2 {
 }
 
 .info {
-	font-size: 1.5em;
+	font-size: 1rem;
 	line-height: 1.4em;
-	font-family: 'Akrobat bold', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .acciones .accion {
 	background-color: #0C2D48;
 	color: #FFFFFF;
-	font-size: 1.4em;
+	font-size: 1rem;
 	transition: background 0.3s ease;
 }
 
@@ -62,8 +74,8 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-position: 10px;
-    background-size: 32px;
-	padding-left: 55px;
+    background-size: 27px;
+	padding-left: 45px;
 	padding-right: 20px;
 }
 
@@ -72,16 +84,18 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-position: 10px;
-    background-size: 32px;
-	padding-left: 55px;
+    background-size: 25px;
+	padding-left: 45px;
 	padding-right: 20px;
 }
 
 .tarjeta {
 	text-align: left;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-	font-size: 1.3REM;
+	font-size: 1rem;
 	background-color:rgba(0, 0, 0, 0.5);
+	padding: 0 15px 15px 20px;
+	height: 100%;
 }
 
 .tarjeta .titulo {
@@ -93,15 +107,15 @@ h2 {
 .tarjeta .servidor {
 	background-image: url('../img/icons/servidor.png');
 	background-repeat: no-repeat;
-	background-position-y: 13px;
+	background-position-y: 12px;
     background-size: 25px;
     padding-left: 35px;
 }
 
 .tarjeta .rol {
-    background-image: url(../img/icons/rol.png);
+    background-image: url('../img/icons/rol.png');
     background-repeat: no-repeat;
-	background-position-y: 13px;
+	background-position-y: 12px;
     background-size: 25px;
     padding-left: 35px;
 }
@@ -109,7 +123,7 @@ h2 {
 .tarjeta .economia {
 	background-image: url('../img/icons/economia.png');
 	background-repeat: no-repeat;
-	background-position-y: 13px;
+	background-position-y: 12px;
     background-size: 25px;
     padding-left: 35px;
 }
@@ -117,7 +131,7 @@ h2 {
 .tarjeta .mecanicas {
 	background-image: url('../img/icons/mecanicas.png');
 	background-repeat: no-repeat;
-	background-position-y: 13px;
+	background-position-y: 12px;
     background-size: 25px;
     padding-left: 35px;
 }
@@ -125,7 +139,7 @@ h2 {
 .tarjeta .trabajos {
 	background-image: url('../img/icons/trabajos.png');
 	background-repeat: no-repeat;
-	background-position-y: 13px;
+	background-position-y: 12px;
     background-size: 25px;
     padding-left: 35px;
 }
@@ -133,40 +147,65 @@ h2 {
 .tarjeta .facciones {
 	background-image: url('../img/icons/facciones.png');
 	background-repeat: no-repeat;
-	background-position-y: 13px;
+	background-position-y: 12px;
     background-size: 25px;
     padding-left: 35px;
 }
 
 .border-red-orange {
-    border-left: 5px solid #ea5c2b !important;
+    border-top: 15px solid #ea5c2b !important;
+	border-left: 2px solid #ea5c2b !important;
+	border-right: 2px solid #ea5c2b !important;
+	border-bottom: 2px solid #ea5c2b !important;
 }
 
 .border-yellow {
-    border-left: 5px solid #ffcd5c !important;
+    border-top: 15px solid #ffcd5c !important;
+	border-left: 2px solid #ffcd5c !important;
+	border-right: 2px solid #ffcd5c !important;
+	border-bottom: 2px solid #ffcd5c !important;
 }
 
 .border-pink {
-    border-left: 5px solid #ff4b8f !important;
+    border-top: 15px solid #ff4b8f !important;
+	border-left: 2px solid #ff4b8f !important;
+	border-right: 2px solid #ff4b8f !important;
+	border-bottom: 2px solid #ff4b8f !important;
 }
 
 .border-violet {
-    border-left: 5px solid #7d4cdb !important;
+    border-top: 15px solid #7d4cdb !important;
+	border-left: 2px solid #7d4cdb !important;
+	border-right: 2px solid #7d4cdb !important;
+	border-bottom: 2px solid #7d4cdb !important;
 }
 
 .border-white {
-    border-left: 5px solid #FFFFFF !important;
+    border-top: 15px solid #FFFFFF !important;
+	border-left: 2px solid #FFFFFF !important;
+	border-right: 2px solid #FFFFFF !important;
+	border-bottom: 2px solid #FFFFFF !important;
 }
 
 .border-light-green {
-    border-left: 5px solid #76ff4c !important;
+    border-top: 15px solid #76ff4c !important;
+	border-left: 2px solid #76ff4c !important;
+	border-right: 2px solid #76ff4c !important;
+	border-bottom: 2px solid #76ff4c !important;
 }
+
+.border-dark-blue {
+    border-top: 15px solid #0C2D48 !important;
+	border-left: 2px solid #0C2D48 !important;
+	border-right: 2px solid #0C2D48 !important;
+	border-bottom: 2px solid #0C2D48 !important;
+}a
 
 .nota {
 	background-color:rgba(0, 0, 0, 0.5);
 	padding: 15px 0;
 	font-size: 1.3em;
-	font-family: 'Akrobat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 

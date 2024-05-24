@@ -139,6 +139,7 @@ h4 {
 	font-family: 'Akrobat Black', sans-serif;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 	font-weight: 800;
+	line-height: 1.3REM;
 }
 
 .trailer {
@@ -220,7 +221,7 @@ span.amarillo {
 
 .actions {
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 55px;
 }
 
 .actions a {
@@ -243,8 +244,8 @@ span.amarillo {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-position: 15px;
-    background-size: 50px;
-	padding-left: 45px;
+    background-size: 40px;
+	padding-left: 35px;
 }
 
 .actions .button.normativa {
@@ -252,8 +253,8 @@ span.amarillo {
 	background-repeat: no-repeat;
 	background-position: left;
 	background-position: 25px;
-    background-size: 50px;
-	padding-left: 45px;
+    background-size: 40px;
+	padding-left: 35px;
 }
 
 .actions .button {
@@ -263,19 +264,15 @@ span.amarillo {
 	font-size: 1.3REM;
 	cursor: pointer;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-	padding: 35px 0;
-}
-
-.areas {
+	padding: 25px 0;
 }
 
 .areas .area {
-	width: 45%;
-	display: inline-block;
+	display: flex;
 }
 
-.areas .area:first-child {
-	margin-right: 25px;
+.areas .area div:nth-child(2){
+	margin-left: 20px;
 }
 
 .areas .area .tarjeta {
@@ -288,13 +285,93 @@ span.amarillo {
 	font-size: 1.3REM;
 	line-height: 1.6REM;
 	background-color:rgba(0, 0, 0, 0.5);
+	flex: 1;
 }
 
 .areas .area .tarjeta .titulo {
 	padding-top: 10px;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+
+.areas .area .tarjeta .titulo.servidor {
+	background-image: url('../img/icons/servidor.png');
+	background-repeat: no-repeat;
+	background-position-y: 8px;
+    background-size: 25px;
+    padding-left: 35px;
+}
+
+.areas .area .tarjeta .titulo.rol {
+    background-image: url(../img/icons/rol.png);
+    background-repeat: no-repeat;
+	background-position-y: 8px;
+    background-size: 25px;
+    padding-left: 35px;
+}
+
+.areas .area .tarjeta .titulo.economia {
+	background-image: url('../img/icons/economia.png');
+	background-repeat: no-repeat;
+	background-position-y: 8px;
+    background-size: 25px;
+    padding-left: 35px;
+}
+
+.areas .area .tarjeta .titulo.mecanicas {
+	background-image: url('../img/icons/mecanicas.png');
+	background-repeat: no-repeat;
+	background-position-y: 8px;
+    background-size: 25px;
+    padding-left: 35px;
+}
+
+.areas .area .tarjeta .titulo.trabajos {
+	background-image: url('../img/icons/trabajos.png');
+	background-repeat: no-repeat;
+	background-position-y: 8px;
+    background-size: 25px;
+    padding-left: 35px;
+}
+
+.areas .area .tarjeta .titulo.facciones {
+	background-image: url('../img/icons/facciones.png');
+	background-repeat: no-repeat;
+	background-position-y: 8px;
+    background-size: 25px;
+    padding-left: 35px;
 }
 
 .areas .area .tarjeta p {
 	padding-bottom: 10px;
 	padding-right: 10px;
+}
+
+.pasos {
+	display: flex;
+}
+
+.pasos .paso {
+	background-color: #33A6B8;
+	margin-left: 20px;
+	padding: 15px;
+	font-size: 1.3REM;
+	line-height: 1.6REM;
+}
+
+.pasos .paso a {
+	text-decoration: none;
+	color: #002446;
+}
+
+.pasos .paso a:hover {
+	text-decoration: underline;
+	color: #002446;
+}
+
+.nota {
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.5);
+	margin-top: 35px;
+	padding: 15px;
 }

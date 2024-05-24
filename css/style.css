@@ -343,7 +343,7 @@ span.amarillo {
 }
 
 .areas .area .tarjeta p {
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	padding-right: 10px;
 }
 
@@ -369,8 +369,11 @@ span.amarillo {
 	color: #002446;
 }
 
+.pasos .paso:first-child {
+	margin-left: 0px;
+}
+
 .nota {
-	width: 100%;
 	background-color:rgba(0, 0, 0, 0.5);
 	margin-top: 35px;
 	padding: 15px;

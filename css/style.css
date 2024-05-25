@@ -225,3 +225,91 @@ h3, h4 {
 .social img {
 	width: 64px;
 }
+
+/* SEVER STATUS */
+.server {
+	text-align: left;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	font-size: 1rem;
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 15px;
+	width: 100%;
+}
+
+.server-description {
+	display: inline-block;
+	font-size: 1.2rem;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	font-weight: 500;
+	line-height: 1.2rem;
+}
+
+.server-status {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	content: "";
+	display: inline-block;
+	position: relative;
+    top: 3px;
+}
+
+.server-status::before,
+.server-status::after {
+	position: absolute;
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-left: -8px;
+}
+  
+.server-status::before {
+	content: "";
+	animation: bounce 1.5s infinite;
+}
+.server-status::after {
+	content: "";
+	animation: bounce 1.5s -0.4s infinite;
+}
+.server-status[type="up"],
+.server-status[type="up"]::before,
+.server-status[type="up"]::after {
+	background: #2ECC71;
+}
+.server-status[type="down"],
+.server-status[type="down"]::before,
+.server-status[type="down"]::after {
+	background: #E74C3C;
+}
+.server-status[type="slow"],
+.server-status[type="slow"]::before,
+.server-status[type="slow"]::after {
+	background: #F1C40F;
+}
+  
+@keyframes bounce {
+	0% {
+	  transform: scale(1);
+	  -webkit-transform: scale(1);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(2);
+	  -webkit-transform: scale(2);
+	  opacity: 0;
+	}
+}
+  
+@-webkit-keyframes bounce {
+	0% {
+	  transform: scale(1);
+	  -webkit-transform: scale(1);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(2);
+	  -webkit-transform: scale(2);
+	  opacity: 0;
+	}
+}

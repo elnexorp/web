@@ -44,7 +44,7 @@ h3, h4 {
 }
 
 .name {
-	line-height: 4rem;
+	line-height: 3.8rem;
 }
 
 .header .logo img {
@@ -272,19 +272,19 @@ h3, h4 {
 	content: "";
 	animation: bounce 1.5s -0.4s infinite;
 }
-.server-status[type="up"],
-.server-status[type="up"]::before,
-.server-status[type="up"]::after {
+.up,
+.up::before,
+.up::after {
 	background: #2ECC71;
 }
-.server-status[type="down"],
-.server-status[type="down"]::before,
-.server-status[type="down"]::after {
+.down,
+.down::before,
+.down::after {
 	background: #E74C3C;
 }
-.server-status[type="slow"],
-.server-status[type="slow"]::before,
-.server-status[type="slow"]::after {
+.warn,
+.warn::before,
+.warn::after {
 	background: #F1C40F;
 }
   
@@ -313,20 +313,3 @@ h3, h4 {
 	  opacity: 0;
 	}
 }
-
-/* CAROUSEL */
-.carousel img {
-	width: 100%;
-	height: auto;
-	cursor: pointer;
-	transition: transform .2s;
-}
-
-.carousel img:hover {
-	position: absolute;
-	left:0;
-	right:0;
-	margin-left:auto;
-	margin-right:auto;
-	transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
